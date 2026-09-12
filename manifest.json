@@ -1,0 +1,82 @@
+{
+  "$schema": "https://raw.githubusercontent.com/anthropics/mcpb/main/schemas/mcpb-manifest-latest.schema.json",
+  "manifest_version": "0.3",
+  "name": "voxbot",
+  "display_name": "Voxbot",
+  "version": "1.1.1",
+  "description": "Let Claude use Voxbot on your Mac \u2014 drive your apps, type for you, and check your film projects.",
+  "long_description": "Voxbot is the voice assistant in your Mac's menu bar. With this extension Claude can hand Voxbot a job \u2014 open and control apps like After Effects, Premiere and Photoshop, type at the cursor, tidy a folder, or look up how a Voxbot film project stands.\n\nVoxbot has to be installed and running (get it at zxrstudios.com/voxbot). Anything that costs credits \u2014 films, renders, character sheets, audio, music, images \u2014 never starts from Claude: Voxbot shows a Yes / Not yet card on your Mac and waits for your own click.",
+  "author": {
+    "name": "Gaudens Zulu",
+    "url": "https://github.com/gaudencez"
+  },
+  "homepage": "https://zxrstudios.com/voxbot",
+  "support": "https://zxrstudios.com/voxbot",
+  "icon": "icon.png",
+  "server": {
+    "type": "node",
+    "entry_point": "server/index.mjs",
+    "mcp_config": {
+      "command": "node",
+      "args": [
+        "${__dirname}/server/index.mjs"
+      ],
+      "env": {}
+    }
+  },
+  "tools": [
+    {
+      "name": "voxbot_do",
+      "description": "Ask Voxbot to do something on your Mac, in plain language."
+    },
+    {
+      "name": "voxbot_type",
+      "description": "Type text wherever your cursor is."
+    },
+    {
+      "name": "voxbot_organize_folder",
+      "description": "Sort a folder's files into type sub-folders."
+    },
+    {
+      "name": "voxbot_status",
+      "description": "Where a Voxbot film project stands."
+    },
+    {
+      "name": "voxbot_projects",
+      "description": "List your Voxbot film projects."
+    },
+    {
+      "name": "voxbot_sheets",
+      "description": "A project's character, prop and location sheets."
+    },
+    {
+      "name": "voxbot_ping",
+      "description": "Check Voxbot is running."
+    }
+  ],
+  "keywords": [
+    "voxbot",
+    "mac",
+    "voice",
+    "automation",
+    "after effects",
+    "film"
+  ],
+  "license": "MIT",
+  "compatibility": {
+    "platforms": [
+      "darwin"
+    ],
+    "runtimes": {
+      "node": ">=18.0.0"
+    }
+  },
+  "documentation": "https://zxrstudios.com/voxbot",
+  "privacy_policies": [
+    "https://zxrstudios.com/privacy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaudencez/voxbot-claude-extension"
+  }
+}
