@@ -2,7 +2,7 @@
 
 [![MCPB](https://img.shields.io/badge/Claude%20Desktop-extension-blue)](https://zxrstudios.com/voxbot)
 
-Voxbot is the voice assistant in your Mac's menu bar, and the filmmaking app behind ZXR Studios. This extension lets Claude hand Voxbot a job: drive your apps (After Effects, Premiere, Photoshop and the rest), type at the cursor, tidy a folder, or check how one of your Voxbot film projects stands.
+Voxbot is a movie-making machine controlled by voice: the filmmaking app and voice assistant in your Mac's menu bar, behind ZXR Studios. This extension lets Claude hand Voxbot a job: drive your apps (After Effects, Premiere, Photoshop and the rest), type at the cursor, tidy a folder, or check how one of your Voxbot film projects stands.
 
 ## Requirements
 

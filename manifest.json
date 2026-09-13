@@ -4,8 +4,8 @@
   "name": "voxbot",
   "display_name": "Voxbot",
   "version": "1.1.1",
-  "description": "Let Claude use Voxbot on your Mac \u2014 drive your apps, type for you, and check your film projects.",
-  "long_description": "Voxbot is the voice assistant in your Mac's menu bar. With this extension Claude can hand Voxbot a job \u2014 open and control apps like After Effects, Premiere and Photoshop, type at the cursor, tidy a folder, or look up how a Voxbot film project stands.\n\nVoxbot has to be installed and running (get it at zxrstudios.com/voxbot). Anything that costs credits \u2014 films, renders, character sheets, audio, music, images \u2014 never starts from Claude: Voxbot shows a Yes / Not yet card on your Mac and waits for your own click.",
+  "description": "Voxbot is a movie-making machine controlled by voice. Let Claude hand it a job: make films, drive your apps, type for you, check your projects.",
+  "long_description": "Voxbot is a movie-making machine controlled by voice \u2014 the filmmaking app and voice assistant in your Mac's menu bar. With this extension Claude can hand Voxbot a job: check how a film project stands, look at its character, prop and location sheets, drive apps like After Effects, Premiere and Photoshop, type at the cursor, or tidy a folder.\n\nVoxbot has to be installed and running (get it at zxrstudios.com/voxbot). Anything that costs credits \u2014 films, renders, character sheets, audio, music, images \u2014 never starts from Claude: Voxbot shows a Yes / Not yet card on your Mac and waits for your own click.",
   "author": {
     "name": "Gaudens Zulu",
     "url": "https://github.com/gaudencez"
